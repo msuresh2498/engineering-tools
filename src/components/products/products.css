@@ -1,0 +1,40 @@
+.products-heading {
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.heading-container {
+    justify-content: center;
+}
+
+.products-para {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card-products {
+    width: 300px;
+    height: 390px;
+    padding: 20px;
+    margin: 10px;
+    transition-delay: 3s;
+    transition-duration: 4s;
+}
+
+.card-products:hover {
+    height: max-content;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-des {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap');
+
+.about-heading {
+    background-image: url('https://media.istockphoto.com/id/496402539/photo/glow-light-of-petrochemical-industry-on-sunset.jpg?s=612x612&w=0&k=20&c=IRm_h6-2jaBgg5lDkjkETveMR9pm3FaqCnhQl7LLiv8=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin: 0;
+    padding: 10px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.about-text {
+
+    font-family: 'PT Sans', sans-serif;
+    padding: 25px;
+    font-size: 20px;
+    color: #1f1a30;
+}
+
+.about-section {
+    border-radius: 14% 0px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(226, 222, 222);
+}
+
+.about-section2 {
+    text-align: left;
+    padding: 10px 100px;
+}
+
+.about-sec2-para {
+    font-size: 16px;
+}
+
+.about-images {
+    border-radius: 0px 0px 18% 0px;
+}
+
+.about-section3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.about-vision {
+    text-align: left;
+    margin: 20px;
+    background-color: skyblue;
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.aboout-mission {
+    text-align: left;
+    margin: 20px;
+    background-color: rgb(135, 235, 200);
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.about-policy {
+    text-align: left;
+    background-color: antiquewhite;
+    padding: 40px;
+    width: 120%;
+    margin: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.certicate-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(220, 204, 218);
+    border-radius: 80% 20%;
+}
+
+.certifcate-image {
+    margin: 20px;
+    width: 250px;
+    border: 2px solid rgb(17, 0, 255);
+    border-radius: 10px 0px;
+}

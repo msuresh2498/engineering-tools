@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.Navbar {
+    background-image: url('https://img.freepik.com/premium-photo/gradient-background-color-cyclone-scene-overlay-effect_965171-72.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: sticky;
+}
+
+.header-contact {
+    text-align: right;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.navbar-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    cursor: pointer;
+}
+
+
+.nav-title-section h1 {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.title-subhead {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-heading {
+    font-size: 45px;
+}
+
+.Home {
+    margin: 0;
+    padding: 0;
+}
+
+.home-buttons {
+    background-color: rgb(248, 168, 48);
+}
+
+.home-btn {
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    cursor: pointer;
+}
+
+.home-introduction {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/19/22/21/metal-8327760_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.intro-text {
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.home-factory-image {
+    width: 600px;
+
+}
+
+.home-product-btn {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(227, 113, 42);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.home-welcome-heading {
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(20, 108, 143);
+    margin: 20px;
+}
+
+.home-welcome-para {
+    text-align: left;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.home-cards {
+    background-color: #cdf1f8 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-card {
+    border-right: 1px solid rgb(207, 213, 223);
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+}
+
+.home-card h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #2f2fe6;
+}
+
+.home-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.product-card {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px !important;
+}
+
+.products-list {
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.product-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.prd-heading2 {
+    color: rgb(62, 93, 233);
+    padding-left: 5px;
+    font-weight: 800;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://www.stitchtools.com/assets/images/contact/contact-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.contact-section {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+    width: 400px;
+}
+
+.contact-section2 {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+    width: 400px;
+}
+
+.filled-basic {
+    border-radius: 15px;
+    font-size: 18px;
+    padding-left: 10px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(238, 236, 236);
+    border: none;
+}
+
+.contact-msg {
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(238, 236, 236);
+    border: none;
+}
+
+.contact-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #A986C8;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.footer-icons {
+    background-color: rgb(30, 103, 230) !important;
+    margin: 5px !important;
+    color: white !important;
+}
+
+.footer-title {
+    color: #146C8F;
+}
+
+.copyright {
+    background-color: rgb(36, 36, 36);
+    height: 50px;
+
+}
+
+.copyright-text {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
