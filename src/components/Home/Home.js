@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             <div>
                 <h1 className='home-welcome-heading'>Welcome to TOOLS Engineering Services</h1>
-                <p className='home-welcome-para'>High Precision Industry are the renowned manufacturers of Heavy Engineering Machine shops at Coimbatore, Since 1991 we have carved a niche for quality. Durability, precision both in domestic and international markets. We take pride in being a profound Manufacturer, Supplier, and Exporter of Heavy Engineering Parts, Machined Casting Parts, etc., and have gained huge appreciation from the respective industry.</p>
+                <p className='home-welcome-para'>High Precision Industry are the renowned manufacturers of Heavy Engineering Machine shops at Kanyakumari, Since 1991 we have carved a niche for quality. Durability, precision both in domestic and international markets. We take pride in being a profound Manufacturer, Supplier, and Exporter of Heavy Engineering Parts, Machined Casting Parts, etc., and have gained huge appreciation from the respective industry.</p>
             </div>
             <div className='home-cards'>
                 <div className='home-card'>
